@@ -130,7 +130,7 @@ fetch(jsonFile)
         const womensproductContainer = document.getElementById('product-insert-women');
         const sportproductContainer = document.getElementById('product-insert-sport');
 
-        // Insert men's products
+        // men's products
         try {
             const mensProducts = data.filter(product => mensCollection.includes(product.id));
             if (mensProducts.length) {
@@ -159,7 +159,7 @@ fetch(jsonFile)
             console.error('Error processing mens products:', error);
         }
 
-        // Insert women's products
+        // women's products
         try {
             const womensProducts = data.filter(product => womensCollection.includes(product.id));
             if (womensProducts.length) {
@@ -188,7 +188,7 @@ fetch(jsonFile)
             console.error('Error processing womens products:', error);
         }
 
-        // Insert sport products
+        // sport products
         try {
             const sportProducts = data.filter(product => sportCollection.includes(product.id));
             if (sportProducts.length) {
