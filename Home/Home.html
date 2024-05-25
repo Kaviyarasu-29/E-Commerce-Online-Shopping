@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Site</title>
+
+  <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="../Common-css/navbar-banner.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="shortcut icon" href="/Assets/Image/Files/favicon.ico">
+
+  <!-- footer css -->
+  <link rel="stylesheet" href="../Common-css/Footer.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Major+Mono+Display&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lexend:wght@100..900&family=Major+Mono+Display&family=Noto+Sans+JP:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Josefin+Sans:wght@700&family=Lexend:wght@300&family=Major+Mono+Display&family=Noto+Sans+JP:wght@100..900&display=swap"
+    rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+  <!-- Navbar section -->
+  <header class="header">
+    <div class="logo">
+      <img src="/Assets/Image/Files/logo-black.webp" alt="" srcset="">
+    </div>
+    <nav class="navbar">
+      <a class="headerLink cinzel-text" href="Home.html"> Home </a>
+      <a class="headerLink cinzel-text" href="../Pages/About/About.html"> About </a>
+      <a class="headerLink cinzel-text" href="../Pages/Contact/Contact.html"> Contact </a>
+    </nav>
+  </header>
+
+  <div class="myContainer">
+
+
+
+    <!-- Carousel section -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-size-control carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators" style="width: auto;">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="../Assets/Image/Carousel/1.webp" alt="First slide">
+
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../Assets/Image/Carousel/2.webp" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../Assets/Image/Carousel/3.webp" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!-- Shopping Icon -->
+    <div class="shopingItem">
+      <h1 class="Shopping-item-icon-heading cinzel-text">
+        What's New
+      </h1>
+    </div>
+
+    <div class="row Shopping-Icon">
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <a href="../Pages/Men/Men.html">
+            <img class="card-img-top" src="../Assets/Image/Shopping-Icon/Men.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">MEN </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <a href="../Pages/Sports/sports.html">
+            <img class="card-img-top sport-image" src="../Assets/Image/Shopping-Icon/Sport.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">SPORT</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <a href="../Pages/Women/Women.html">
+            <img class="card-img-top" src="../Assets/Image/Shopping-Icon/Women.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">WOMEN</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="shopping-Ads">
+    <div class="row">
+      <div class="col-6 video-ads">
+        <video width="320" height="240" autoplay>
+          <source src="../Assets/Video/Shopping-Ads.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="col-6 Text-ads">
+        <div class="shopping-ads-text">
+          <div class="ads-text">
+            <h1 class="cinzel-text">
+              Soft Viscose Joggers
+            </h1>
+            <h4 class="lexend-ads-text  text-margin">
+              In a supersoft fabric, these laid-back joggers are designed for extra comfort for lounging.
+            </h4>
+            <button type="button" class="btn btn-dark lexend-ads-text">Shop The Collection</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- latest news -->
+  <div class="news">
+    <div class="news-heading">
+      <h1 class="cinzel-text">Latest News</h1>
+      <h4 class="cinzel-text">Nonummy minima praesentium, dicta quae auctor accusantium!</h4>
+    </div>
+    <div class="news-images-card row">
+      <div onmouseover="NewsTextChange('newsText1')" onmouseout="NewsTextDefault('newsText1')"
+        class="card animated-card col-3" style="width: 22rem;">
+        <img class="card-img-top " src="../Assets/Image/News-Image/1.webp" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text lexend-ads-text">09 June 2021</p>
+          <h5 id="newsText1" class="lexend-ads-text">Sed dapibus tortor nibh, vel luctus est varius et curabit</h5>
+        </div>
+      </div>
+      <div onmouseover="NewsTextChange('newsText2')" onmouseout="NewsTextDefault('newsText2')" class="card col-3"
+        style="width: 22rem;">
+        <img class="card-img-top" src="../Assets/Image/News-Image/2.webp" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text lexend-ads-text">09 June 2021</p>
+          <h5 id="newsText2" class="lexend-ads-text">Morbi eu enim quam. In erat erat, congue ut pulvinar
+          </h5>
+        </div>
+      </div>
+      <div onmouseover="NewsTextChange('newsText3')" onmouseout="NewsTextDefault('newsText3')" class="card col-3"
+        style="width: 22rem;">
+        <img class="card-img-top" src="../Assets/Image/News-Image/3.webp" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text lexend-ads-text">09 June 2021</p>
+          <h5 id="newsText3" class="lexend-ads-text">Cras sed blandit orci. Cras malesuada duierat pharetra</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- footer images -->
+
+  <div class="container-footer">
+    <div class="row">
+      <div class="col-3">
+        <div class="card " style="width: 18rem;">
+          <img class="card-img-top delivery-img" src="../Assets/Image/Footer/1.png" alt="Card image cap">
+          <div class="card-body ">
+            <h4 class="lexend-ads-text card-delivery-heading">Free Shipping</h4>
+            <p class="card-text lexend-ads-text card-delivery-Text">Free shipping on all US order or order above $99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card " style="width: 18rem;">
+          <img class="card-img-top delivery-img  " src="../Assets/Image/Footer/2.png" alt="Card image cap">
+          <div class="card-body ">
+            <h4 class="lexend-ads-text card-delivery-heading">Online Support 24/7</h4>
+            <p class="card-text lexend-ads-text card-delivery-Text">Free shipping onv all US order or order above $99
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card " style="width: 18rem;">
+          <img class="card-img-top delivery-img" src="../Assets/Image/Footer/3.png" alt="Card image cap">
+          <div class="card-body ">
+            <h4 class="lexend-ads-text card-delivery-heading">7 Days Return</h4>
+            <p class="card-text lexend-ads-text card-delivery-Text">Free shipping on all US order or order above $99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card " style="width: 18rem;">
+          <img class="card-img-top delivery-img" src="../Assets/Image/Footer/4.png" alt="Card image cap">
+          <div class="card-body ">
+            <h4 class="lexend-ads-text card-delivery-heading">Payment Secure</h4>
+            <p class="card-text lexend-ads-text card-delivery-Text">Free shipping on all US order or order above $99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Footer Contant -->
+  <footer>
+    <div class="footer-container">
+      <div class="row">
+        <div class="col-5 delivery-discription">
+          <div style="width: 80%;">
+            <div class=" footer-logo-img">
+              <img src="../Assets/Image/Files/logo-white.webp " alt="website logo" srcset="">
+            </div>
+
+            <div class="footer-discription">
+              <p class="lexend-ads-text">A great about us block helps builds trust between you and your customers. The
+                more content you provide
+                about you and your business, the more confident people will be when purchasing from your store.</p>
+            </div>
+
+            <div class="address">
+              <h4 class="lexend-ads-text footer-discription-heading">
+                Address:
+              </h4>
+              <p class="lexend-ads-text ">7895 Piermont Dr NE Albuquerque, NM 198866, United States of America</p>
+            </div>
+
+            <div class="phone">
+              <h4 class="lexend-ads-text footer-discription-heading">Phone:</h4>
+              <p class="lexend-ads-text">+084 94 880 74 84</p>
+            </div>
+
+            <div class="email">
+              <h4 class="lexend-ads-text footer-discription-heading">Email:</h4>
+              <p class="lexend-ads-text">olive@gmail.com</p>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <!-- nested col -->
+        <div class="col-3 row">
+          <div class="col-6">
+            <h4 class="lexend-ads-text">
+              SHOP
+            </h4>
+            <br>
+            <div class="footer-para-tag">
+              <p class="lexend-ads-text">Men</p>
+              <p class="lexend-ads-text">Women</p>
+              <p class="lexend-ads-text">Accessories</p>
+              <p class="lexend-ads-text">Shoes</p>
+              <p class="lexend-ads-text">Denim</p>
+              <p class="lexend-ads-text">Dress</p>
+            </div>
+
+          </div>
+          <div class="col-6">
+            <h4 class="lexend-ads-text">HELP</h4>
+            <br>
+            <div class="footer-para-tag">
+              <p class="lexend-ads-text">About Us</p>
+              <p class="lexend-ads-text">Service</p>
+              <p class="lexend-ads-text">Contact Us</p>
+              <p class="lexend-ads-text">FAQs</p>
+              <p class="lexend-ads-text">Privacy Policy</p>
+              <p class="lexend-ads-text">Cookie Privacy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 NEWS-LETTER">
+          <h4 class="lexend-ads-text ">NEWS LETTER</h4>
+          <br>
+          <p class="lexend-ads-text">Sign up to our newsletter to get the latest articles, lookbooks & fashion voucher
+            codes direct to your
+            inbox</p>
+
+          <form action="" method="">
+            <label for="email">
+              <input class="lexend-ads-text input-email" type="email" id="" placeholder="Enter your email here">
+              <button class="lexend-ads-text submit-btn btn btn-primary my-1" type="submit">Send</button>
+            </label>
+          </form>
+
+          <div class="bank-card-img">
+            <img src="../Assets/Image/Footer/bank-card.avif" alt="" srcset="">
+          </div>
+
+        </div>
+      </div>
+      <hr style="border-top: 1px dashed white">
+    </div>
+
+    <div class="footer-last">
+      <div class="footer-last-right ">
+        <p class="lexend-ads-text">Copyright © 2024 Kavi_themes. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-right-icon">
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./Home.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

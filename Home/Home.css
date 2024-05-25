@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.myContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-size-control {
+    height: 45rem;
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.carousel-size-control img {
+    height: 44rem;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* Shopping Icon */
+
+.Shopping-Icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+
+
+}
+
+.shopingItem {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.Shopping-item-icon-heading {
+    text-shadow: rgb(235, 175, 48) 2px 2px;
+}
+
+.Shopping-Icon .col-3 {
+    display: flex !important;
+    justify-content: center;
+}
+
+
+.Shopping-Icon .col-3 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.Shopping-Icon a:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    color: rgb(255, 6, 6);
+    text-shadow: rgba(0, 0, 0, 0.4) 2px 2px;
+    transition: 700ms;
+}
+
+
+
+
+
+
+/* Shopping Ads */
+
+.shopping-Ads {
+    /* background-color: antiquewhite; */
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 4rem;
+}
+
+
+
+.shopping-Ads video {
+    border-radius: 25px;
+    margin-left: 25px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+
+}
+
+.shopping-Ads .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Text-ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.major-mono-display-regular {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.shopping-ads-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* width: ;; */
+
+}
+
+.lexend-ads-text {
+    font-family: "Lexend", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text-margin {
+
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+
+
+.shopping-ads-text .ads-text {
+    width: 80%;
+    font-weight: 200;
+
+}
+
+.ads-text h1 {
+    text-shadow: rgba(58, 242, 236, 0.493) 2px 2px;
+}
+
+.ads-text button {
+    width: fit-content;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: larger;
+}
+
+.ads-text button:hover {
+    background-color:rgb(255, 77, 0);
+    border: 5px rgb(255, 77, 0);
+    ;
+}
+
+
+
+/* Lates News */
+.news {
+    background-color: #f7f7f7;
+    /* background-image: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%); */
+}
+
+.news-images-card {
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+.news-images-card .card {
+    padding: 0;
+    border: transparent;
+    text-align: center;
+
+}
+
+.news-images-card .card:hover{
+    box-shadow: rgba(247, 154, 92, 0.56) 0px 22px 70px 4px;
+}
+
+/* .news-card-text {
+    font-family: "Lexend", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+} */
+
+.news-heading {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.news-heading h1 {
+    text-shadow: #d6e769 2px 2px;
+}
+
+/* .news .news-heading h1 h4{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+} */
+
+.cinzel-text {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.card-text{
+    color: rgb(255, 77, 0);
+    font-size: larger;
+}
+
+
+
+/* footer images - delivary */
+
+.container-footer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.delivery-img{
+    margin: 2rem;
+    width: 75px !important;
+    height: 75px;
+}
+
+.container-footer .col-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: transparent;
+}
+
+.card-delivery-heading{
+    font-size: 20px;
+}
+.card-delivery-Text{
+    color: rgb(87, 87, 87);
+    font-size: smaller;
+}

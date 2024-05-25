@@ -1,0 +1,66 @@
+* {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+
+/*  Cart Produnct Heading */
+.cart-product-heading{
+    text-align: center;
+    
+}
+
+
+
+/* Cart Product Details */
+
+
+.col-3{
+    display: flex;
+    justify-content: center;
+    padding-right: 0 !important;
+    margin-bottom: 5rem;
+}
+.card-show{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-deatils{
+    width: 100%;
+    margin: 0;
+    /* background-color: thistle; */
+    /* display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important; */
+}
+
+.card-body p{
+
+    color: tomato;
+}
+
+.card-img-top {
+    transition: 5s;
+}
+
+
+
+
+
+.row-text-align{
+    text-align: center;
+}
+
+.card-adjust-to-center{
+    
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+
+}
