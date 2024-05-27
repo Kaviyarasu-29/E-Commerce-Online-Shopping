@@ -1,0 +1,314 @@
+// [
+//     {
+//         "name": "men",
+//         "products": [
+//             {
+//                 "id": 1,
+//                 "P-name": "Blue jeans for men",
+//                 "price": "$95.00",
+//                 "imageDefault": "../../Assets/Image/Product/1.webp",
+//                 "imageHover": "../../Assets/Image/Product/1.1.webp"
+//             },
+//             {
+//                 "id": 8,
+//                 "P-name": "Cap",
+//                 "price": "$40.00",
+//                 "imageDefault": "../../Assets/Image/Product/8.webp",
+//                 "imageHover": "../../Assets/Image/Product/8.1.webp"
+//             },
+//             {
+//                 "id": 9,
+//                 "P-name": "Black T-Shirt",
+//                 "price": "$75.00",
+//                 "imageDefault": "../../Assets/Image/Product/9.webp",
+//                 "imageHover": "../../Assets/Image/Product/9.2.webp"
+//             },
+//             {
+//                 "id": 2,
+//                 "P-name": "Adidas trainers in black",
+//                 "price": "$150.00",
+//                 "imageDefault": "../../Assets/Image/Product/2.webp", 
+//                 "imageHover": "../../Assets/Image/Product/2.2.webp"
+//             }
+//         ]
+//     },
+//     {
+//         "name": "women",
+//         "products": [
+//             {
+//                 "id": 5.2,
+//                 "P-name": "Adidas trainers in white",
+//                 "price": "$148.00",
+//                 "imageDefault": "../../Assets/Image/Product/5.2.webp",
+//                 "imageHover": "../../Assets/Image/Product/5.3.webp"
+//             },
+//             {
+//                 "id": 8.1,
+//                 "P-name": "Cap",
+//                 "price": "$40.00",
+//                 "imageDefault": "../../Assets/Image/Product/8.1.webp",
+//                 "imageHover": "../../Assets/Image/Product/8.webp"
+//             },
+//             {
+//                 "id": 9.2,
+//                 "P-name": "Black T-Shirt",
+//                 "price": "$75.00",
+//                 "imageDefault": "../../Assets/Image/Product/9.2.webp",
+//                 "imageHover": "../../Assets/Image/Product/9.1.webp"
+//             },
+//             {
+//                 "id": 2.2,
+//                 "P-name": "Adidas trainers in black",
+//                 "price": "$150.00",
+//                 "imageDefault": "../../Assets/Image/Product/2.2.webp",
+//                 "imageHover": "../../Assets/Image/Product/2.webp"
+//             }
+//         ]
+//     },
+//     {
+//         "name": "sport",
+//         "products": [
+//             {
+//                 "id": 5.2,
+//                 "P-name": "Adidas trainers in white",
+//                 "price": "$148.00",
+//                 "imageDefault": "../../Assets/Image/Product/5.2.webp",
+//                 "imageHover": "../../Assets/Image/Product/5.3.webp"
+//             },
+//             {
+//                 "id": 8.1,
+//                 "P-name": "Cap",
+//                 "price": "$40.00",
+//                 "imageDefault": "../../Assets/Image/Product/8.1.webp",
+//                 "imageHover": "../../Assets/Image/Product/8.webp"
+//             },
+//             {
+//                 "id": 9.2,
+//                 "P-name": "Black T-Shirt",
+//                 "price": "$75.00",
+//                 "imageDefault": "../../Assets/Image/Product/9.2.webp",
+//                 "imageHover": "../../Assets/Image/Product/9.1.webp"
+//             },
+//             {
+//                 "id": 2.2,
+//                 "P-name": "Adidas trainers in black",
+//                 "price": "$150.00",
+//                 "imageDefault": "../../Assets/Image/Product/2.2.webp",
+//                 "imageHover": "../../Assets/Image/Product/2.webp"
+//             }
+//         ]
+//     }
+// ]
+
+
+
+[
+    {
+        "name": "men",
+        "products": [
+            {
+                "id": 1,
+                "P-name": "Blue jeans for men",
+                "price": "$95.00",
+                "imageDefault": "../../Assets/Image/Product/1.webp",
+                "imageHover": "../../Assets/Image/Product/1.1.webp"
+            },
+            {
+                "id": 8,
+                "P-name": "Cap",
+                "price": "$40.00",
+                "imageDefault": "../../Assets/Image/Product/8.webp",
+                "imageHover": "../../Assets/Image/Product/8.1.webp"
+            },
+            {
+                "id": 9,
+                "P-name": "Black T-Shirt",
+                "price": "$75.00",
+                "imageDefault": "../../Assets/Image/Product/9.webp",
+                "imageHover": "../../Assets/Image/Product/9.2.webp"
+            },
+            {
+                "id": 2,
+                "P-name": "Adidas trainers in black",
+                "price": "$150.00",
+                "imageDefault": "../../Assets/Image/Product/2.webp", 
+                "imageHover": "../../Assets/Image/Product/2.2.webp"
+            }
+        ]
+    },
+    {
+        "name": "women",
+        "products": [
+            {
+                "id": 5.2,
+                "P-name": "Adidas trainers in white",
+                "price": "$148.00",
+                "imageDefault": "../../Assets/Image/Product/5.2.webp",
+                "imageHover": "../../Assets/Image/Product/5.3.webp"
+            },
+            {
+                "id": 8.1,
+                "P-name": "Cap",
+                "price": "$40.00",
+                "imageDefault": "../../Assets/Image/Product/8.1.webp",
+                "imageHover": "../../Assets/Image/Product/8.webp"
+            },
+            {
+                "id": 9.2,
+                "P-name": "Black T-Shirt",
+                "price": "$75.00",
+                "imageDefault": "../../Assets/Image/Product/9.2.webp",
+                "imageHover": "../../Assets/Image/Product/9.1.webp"
+            },
+            {
+                "id": 2.2,
+                "P-name": "Adidas trainers in black",
+                "price": "$150.00",
+                "imageDefault": "../../Assets/Image/Product/2.2.webp",
+                "imageHover": "../../Assets/Image/Product/2.webp"
+            }
+        ]
+    },
+    {
+        "name": "sport",
+        "products": [
+            {
+                "id": 5.2,
+                "P-name": "Adidas trainers in white",
+                "price": "$148.00",
+                "imageDefault": "../../Assets/Image/Product/5.2.webp",
+                "imageHover": "../../Assets/Image/Product/5.3.webp"
+            },
+            {
+                "id": 8.1,
+                "P-name": "Cap",
+                "price": "$40.00",
+                "imageDefault": "../../Assets/Image/Product/8.1.webp",
+                "imageHover": "../../Assets/Image/Product/8.webp"
+            },
+            {
+                "id": 9.2,
+                "P-name": "Black T-Shirt",
+                "price": "$75.00",
+                "imageDefault": "../../Assets/Image/Product/9.2.webp",
+                "imageHover": "../../Assets/Image/Product/9.1.webp"
+            },
+            {
+                "id": 2.2,
+                "P-name": "Adidas trainers in black",
+                "price": "$150.00",
+                "imageDefault": "../../Assets/Image/Product/2.2.webp",
+                "imageHover": "../../Assets/Image/Product/2.webp"
+            }
+        ]
+    }
+]
+
+
+
+
+
+
+// -----------new json file
+
+[
+    {
+        "name": "men",
+        "products": [
+            {
+                "id": "men1",
+                "P-name": "Blue jeans for men",
+                "price": "$95.00",
+                "imageDefault": "../../Assets/Image/Product/1.webp",
+                "imageHover": "../../Assets/Image/Product/1.1.webp"
+            },
+            {
+                "id": "men8",
+                "P-name": "Cap",
+                "price": "$40.00",
+                "imageDefault": "../../Assets/Image/Product/8.webp",
+                "imageHover": "../../Assets/Image/Product/8.1.webp"
+            },
+            {
+                "id": "men9",
+                "P-name": "Black T-Shirt",
+                "price": "$75.00",
+                "imageDefault": "../../Assets/Image/Product/9.webp",
+                "imageHover": "../../Assets/Image/Product/9.2.webp"
+            },
+            {
+                "id": "men2",
+                "P-name": "Adidas trainers in black",
+                "price": "$150.00",
+                "imageDefault": "../../Assets/Image/Product/2.webp",
+                "imageHover": "../../Assets/Image/Product/2.2.webp"
+            }
+        ]
+    },
+    {
+        "name": "women",
+        "products": [
+            {
+                "id": "women5.2",
+                "P-name": "Adidas trainers in white",
+                "price": "$148.00",
+                "imageDefault": "../../Assets/Image/Product/5.2.webp",
+                "imageHover": "../../Assets/Image/Product/5.3.webp"
+            },
+            {
+                "id": "women8.1",
+                "P-name": "Cap",
+                "price": "$40.00",
+                "imageDefault": "../../Assets/Image/Product/8.1.webp",
+                "imageHover": "../../Assets/Image/Product/8.webp"
+            },
+            {
+                "id": "women9.2",
+                "P-name": "Black T-Shirt",
+                "price": "$75.00",
+                "imageDefault": "../../Assets/Image/Product/9.2.webp",
+                "imageHover": "../../Assets/Image/Product/9.1.webp"
+            },
+            {
+                "id": "women2.2",
+                "P-name": "Adidas trainers in black",
+                "price": "$150.00",
+                "imageDefault": "../../Assets/Image/Product/2.2.webp",
+                "imageHover": "../../Assets/Image/Product/2.webp"
+            }
+        ]
+    },
+    {
+        "name": "sport",
+        "products": [
+            {
+                "id": "sport5.2",
+                "P-name": "Adidas trainers in white",
+                "price": "$148.00",
+                "imageDefault": "../../Assets/Image/Product/5.2.webp",
+                "imageHover": "../../Assets/Image/Product/5.3.webp"
+            },
+            {
+                "id": "sport8.1",
+                "P-name": "Cap",
+                "price": "$40.00",
+                "imageDefault": "../../Assets/Image/Product/8.1.webp",
+                "imageHover": "../../Assets/Image/Product/8.webp"
+            },
+            {
+                "id": "sport9.2",
+                "P-name": "Black T-Shirt",
+                "price": "$75.00",
+                "imageDefault": "../../Assets/Image/Product/9.2.webp",
+                "imageHover": "../../Assets/Image/Product/9.1.webp"
+            },
+            {
+                "id": "sport2.2",
+                "P-name": "Adidas trainers in black",
+                "price": "$150.00",
+                "imageDefault": "../../Assets/Image/Product/2.2.webp",
+                "imageHover": "../../Assets/Image/Product/2.webp"
+            }
+        ]
+    }
+]

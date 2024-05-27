@@ -42,7 +42,7 @@ img {
 .navbar{
     width: 50%;
     display: flex !important;
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: flex-end !important;
 
 }
@@ -59,6 +59,10 @@ img {
     width: fit-content;
     text-decoration: none;
     color: black;   
+}
+.dropdown-menu{
+    left: 32rem !important;
+    width: fit-content !important;
 }
 
 .headerLink:hover{

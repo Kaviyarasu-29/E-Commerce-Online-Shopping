@@ -6,20 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce Site</title>
 
-    <link rel="stylesheet" href="./Contact.css">
+    <link rel="stylesheet" href="Cart.css">
+
     <link rel="stylesheet" href="../../Common-css/navbar-banner.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="shortcut icon" href="/Assets/Image/Files/favicon.ico">
 
+    <!-- card css -->
+    <link rel="stylesheet" href="../../Common-css/card.css">
 
     <!-- footer css -->
     <link rel="stylesheet" href="../../Common-css/Footer.css">
+
+    <!-- code Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-
 
 </head>
 
@@ -31,19 +37,28 @@
         </div>
         <nav class="navbar">
             <a class="headerLink" href="../../Home/Home.html"> Home </a>
+
+            <a class="nav-link dropdown-toggle headerLink" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Category
+            </a>
+            <div class="dropdown-menu  " aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item " href="../Men/Men.html">Men</a>
+              <a class="dropdown-item " href="../Women/Women.html">Women</a>
+              <a class="dropdown-item " href="../Sports/sports.html">Sport</a>
+            </div>
+      
             <a class="headerLink" href="../About/About.html"> About </a>
             <a class="headerLink" href="../Contact/Contact.html"> Contact </a>
-            <a class="headerLink" href="../Cart/Cart.html"> Cart </a>
+            <a class="headerLink" href="../Pages/Cart/Cart.html"> Cart </a>
         </nav>
     </header>
 
+    <h1>Shopping Cart</h1>
+    <div id="cart-items"></div>
+    <div id="total-price"></div>
 
-    <!-- Banner Imagere -->
-    <img src="../../Assets/Image/Files/2.webp" class="img-fluid banner-Image" alt="Responsive image">
-
-    <h1>about page</h1>
-
-
+    
 
 
 
@@ -155,6 +170,21 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script src="Cart.js"></script>
+
+    <script src="../../db-components/dataAccess.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
